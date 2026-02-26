@@ -29,6 +29,9 @@ import BillingPanel  from './pages/cashier/BillingPanel';
 
 import { getDashboardRoute } from './utils/auth';
 
+import { Analytics } from "@vercel/analytics/react"
+
+
 function RequireAuth({ children, roles }) {
   const { user, isLoggedIn } = useAuth();
   if (!isLoggedIn) return <Navigate to="/login" replace />;
@@ -49,6 +52,7 @@ export default function App() {
 
   return (
     <BrowserRouter>
+    <Analytics/>
       <Suspense fallback={<PageLoader />}>
         <Routes>
           {/* Public */}
