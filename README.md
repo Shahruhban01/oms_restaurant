@@ -1,7 +1,7 @@
 # 🍴 RestaurantOS — Frontend
 
 > React + Vite frontend for the RestaurantOS Multi-Tenant Restaurant Management System.
-> Connects to the [PHP backend API](../backend/README.md) to deliver a full POS, kitchen display, billing, inventory, and reporting experience.
+> Connects to the [PHP backend API](https://github.com/Shahruhban01/oms_restaurant_backend/blob/main/README.md) to deliver a full POS, kitchen display, billing, inventory, and reporting experience.
 
 ---
 
